@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:day-02}",
+      "name": "Debug day-01",
+      "program": "${workspaceFolder:day-02}/.build/debug/day-01",
+      "preLaunchTask": "swift: Build Debug day-01"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:day-02}",
+      "name": "Release day-01",
+      "program": "${workspaceFolder:day-02}/.build/release/day-01",
+      "preLaunchTask": "swift: Build Release day-01"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:day-02}",
+      "name": "Debug day-02",
+      "program": "${workspaceFolder:day-02}/.build/debug/day-02",
+      "preLaunchTask": "swift: Build Debug day-02"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder:day-02}",
+      "name": "Release day-02",
+      "program": "${workspaceFolder:day-02}/.build/release/day-02",
+      "preLaunchTask": "swift: Build Release day-02"
+    }
+  ]
+}
