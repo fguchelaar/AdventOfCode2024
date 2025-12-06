@@ -73,6 +73,11 @@ public struct Point: Equatable, Hashable {
          left.up]
     }
 
+    /// Checks if the point is between two other points (inclusive)
+    public func between(_ min: Point, _ max: Point) -> Bool {
+        x >= min.x && x <= max.x && y >= min.y && y <= max.y
+    }
+
     /// Calculates the distance between two point, using _manhattan distance_.
     /// - Returns: distance between two point
     public func manhattan(to other: Point) -> Int {

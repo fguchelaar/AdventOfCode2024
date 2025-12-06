@@ -28,6 +28,6 @@ struct Tests {
   @Test("Puzzle part 2")
   func part2() {
     let puzzle = Puzzle(input: input)
-    #expect(puzzle.part2() == -1)
+    #expect(puzzle.part2() == 34)
   }
 }
